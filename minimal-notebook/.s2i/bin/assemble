@@ -25,6 +25,9 @@ pip install -r /tmp/src/requirements.txt
 # Activate JupyterHub extension for JupyterLab.
 
 jupyter labextension install @jupyterlab/hub-extension
+pip install jupyter_contrib_nbextensions
+jupyter nbextension install --py jupyter_contrib_nbextensions --user
+jupyter nbextension enable freeze/main
 npm cache clean --force
 rm -rf $HOME/.cache/yarn
 rm -rf $HOME/.node-gyp
