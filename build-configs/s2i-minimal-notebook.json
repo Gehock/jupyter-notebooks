@@ -38,8 +38,8 @@
                 "source": {
                     "type": "Git",
                     "git": {
-                        "uri": "https://github.com/jupyter-on-openshift/jupyter-notebooks",
-                        "ref": "2.3.0"
+                        "uri": "https://github.com/gehock/jupyter-notebooks",
+                        "ref": "develop"
                     },
                     "contextDir": "minimal-notebook"
                 },
@@ -87,8 +87,8 @@
                 "source": {
                     "type": "Git",
                     "git": {
-                        "uri": "https://github.com/jupyter-on-openshift/jupyter-notebooks",
-                        "ref": "2.3.0"
+                        "uri": "https://github.com/gehock/jupyter-notebooks",
+                        "ref": "develop"
                     },
                     "contextDir": "minimal-notebook"
                 },
